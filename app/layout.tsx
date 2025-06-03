@@ -37,7 +37,7 @@ export default function RootLayout({
       }}
     >
       <html lang="en" suppressHydrationWarning>
-        <body className={`${inter.className}`}>
+        <body className={`${inter.className} animated-dotted-background`}>
           <ThemeProvider attribute="class" defaultTheme="dark">
             {/* header  */}
             <Header />
